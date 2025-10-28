@@ -2,19 +2,27 @@
 
 ### 1. Clone this repo
 
+```
 git clone git@github.com:kdingu/expo-template-full.git
+```
 
 ### 2. Install node modules
 
+```
 yarn
+```
 
 ### 3. Create expo development build
 
+```
 npx expo prebuild
+```
 
 ### 4. Start expo
 
+```
 yarn start -d
+```
 
 # Stack
 
@@ -89,3 +97,7 @@ Create, manage and implement lightweight animations across websites, apps, prese
 https://docs.sentry.io/platforms/react-native/
 
 Sentry provides end-to-end distributed tracing, enabling developers to identify and debug performance issues and errors across their systems and services.
+
+```
+
+```
