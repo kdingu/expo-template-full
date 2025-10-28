@@ -48,7 +48,15 @@
           "addGeneratedScheme": true
         }
       ],
-      "expo-localization"
+      "expo-localization",
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "oddy_client",
+          "organization": "klaidi-dingu"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,

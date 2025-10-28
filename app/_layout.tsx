@@ -6,10 +6,11 @@ import { PostHogProvider } from "posthog-react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 import "@/global.css";
+import Sentry from "@/utils/sentry/client";
 
 const queryClient = new QueryClient();
 
-export default function RootLayout() {
+export default Sentry.wrap(function RootLayout() {
 	return (
 		<PostHogProvider client={posthog}>
 			<QueryClientProvider client={queryClient}>
@@ -21,4 +22,4 @@ export default function RootLayout() {
 			</QueryClientProvider>
 		</PostHogProvider>
 	);
-}
+});
