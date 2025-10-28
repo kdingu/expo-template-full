@@ -1,29 +1,3 @@
-# How to use
-
-### 1. Clone this repo
-
-```
-git clone git@github.com:kdingu/expo-template-full.git
-```
-
-### 2. Install node modules
-
-```
-yarn
-```
-
-### 3. Create expo development build
-
-```
-npx expo prebuild
-```
-
-### 4. Start expo
-
-```
-yarn start -d
-```
-
 # Stack
 
 ## **Expo**
