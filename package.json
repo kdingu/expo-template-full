@@ -47,6 +47,7 @@
     "react": "19.1.0",
     "react-aria": "^3.33.0",
     "react-dom": "19.1.0",
+    "react-hook-form": "^7.65.0",
     "react-native": "0.81.5",
     "react-native-gesture-handler": "^2.29.0",
     "react-native-ios-context-menu": "3.2.0",
